@@ -13,9 +13,10 @@ body {
 }
 
 #logo-section {
-    flex: 1;
     background-image: url('images/background.jpg');
     background-size: cover;
+    flex: 1;
+    position: relative;
 }
 
 #logo-bar {
@@ -37,6 +38,21 @@ body {
     font-family: 'Norse Bold';
     font-size: 6rem;
     padding-top: 20px;
+}
+
+#logo-credit {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+}
+
+
+#logo-credit a, #logo-credit a:hover, #logo-credit a:visited {
+    color: white
 }
 
 #signup-section {
