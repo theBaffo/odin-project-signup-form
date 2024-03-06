@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Norse Bold";
+    src:
+      url("fonts/Norse-Bold.otf");
+  }
+
+body {
+    display: flex;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#logo-section {
+    flex: 1;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+}
+
+#logo-bar {
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 250px;
+    padding: 10px;
+}
+
+#logo-bar img {
+    height: 150px;
+}
+
+#logo-bar span {
+    color: white;
+    font-family: 'Norse Bold';
+    font-size: 6rem;
+    padding-top: 20px;
+}
+
+#signup-section {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+
+#before-signup-form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 40px;
+}
+
+.before-signup-text {
+    
+    font-size: 1.75rem;
+    max-width: 55ch;
+}
+
+#signup-form {
+    flex: 1;
+}
+
+#create-account-button {
+    background-color: #596D48;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 30px;
+}
+
+#before-signup-form-section, #after-signup-form-section {
+    background-color: #fbf9f9;
+    flex: 1;
+}
+
+#before-signup-form-section, #after-signup-form-section, #signup-form {
+    padding: 40px;
+}
