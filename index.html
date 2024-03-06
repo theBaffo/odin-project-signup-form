@@ -27,11 +27,26 @@
         </div>
 
         <div id="signup-form">
-
+            <form id="create-account-form" method="post" action="#">
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" />
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" />
+                <br><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" />
+                <label for="phone-number">Phone Number</label>
+                <input type="text" name="phone-number" />
+                <br><br>
+                <label for="password">Password</label>
+                <input type="password" name="password" />
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" name="confirm-password" />
+            </form>
         </div>
 
         <div id="after-signup-form-section">
-            <button id="create-account-button" type="submit">Create Account</button>
+            <button id="create-account-button" type="submit" form="create-account-form">Create Account</button>
             <p id="go-to-login-text">Already have an acoount? <a href="#">Log In</a></p>
         </div>
     </div>
