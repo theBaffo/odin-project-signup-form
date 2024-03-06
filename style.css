@@ -51,7 +51,7 @@ body {
 }
 
 
-#logo-credit a, #logo-credit a:hover, #logo-credit a:visited {
+#logo-credit a {
     color: white
 }
 
@@ -132,4 +132,10 @@ body {
 
 #before-signup-form-section, #after-signup-form-section, #signup-form {
     padding: 40px;
+}
+
+#go-to-login-text a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #596D48;
 }
