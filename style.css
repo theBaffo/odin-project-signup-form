@@ -76,6 +76,45 @@ body {
 
 #signup-form {
     flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+#create-account-form {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.create-account-form-row {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.create-account-form-col {
+    display: flex;
+    flex-direction: column;   
+}
+
+.form-label {
+    text-transform: uppercase;
+    width: 280px;
+}
+
+.form-input {
+    border: 1px solid #E5E7EB;
+    padding: 5px;
+    width: 280px;
+}
+
+.form-input:focus {
+    border: 1px solid blue;
+    box-shadow: 5px 5px #fbf9f9;
+}
+
+.form-input.error {
+    border: 1px solid red;
 }
 
 #create-account-button {
